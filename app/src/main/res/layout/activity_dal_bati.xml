@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DalBatiActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dalbati"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dal Bati"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dal baati is an Indian dish of dal (lentils) and baati (hard wheat rolls).[1] It is popular in Rajasthan, Uttar Pradesh and Madhya Pradesh (especially in Braj, Nimar and Malwa regions).
+
+Dal is prepared using tuvaar dal, chana dal (prepared by removing skin of split chickpeas), mung dal, moth dal, or urad dal. The pulses or lentils are cooked together after being soaked in water for a few hours. First, a small amount of vegetable oil is heated in a frying pan and then the seasoning rai-jeera (mustard and cumin seeds) is added into the hot oil. Then green chilli, garlic and some spices including hing, red chilli, haldi, coriander, ginger are added."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

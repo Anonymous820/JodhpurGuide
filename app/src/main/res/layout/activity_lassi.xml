@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LassiActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/makhaniyalassi"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lassi"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lassi (pronounced [ləsiː]) is a popular traditional dahi (yogurt)-based drink that originated in the Indian subcontinent.[1][2] Lassi is a blend of yoghurt, water, spices and sometimes fruit. Namkeen (salty) lassi is similar to doogh, while sweet and mango lassis are like milkshakes. Bhang lassi is infused with the drug cannabis in the form of bhang. Chaas is a similar drink of a thinner consistency."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

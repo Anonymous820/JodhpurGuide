@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg3">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/thebookcafe1"
+            />
+        <ImageView
+            android:id="@+id/c2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cafed"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Book Cafe"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginBottom="20sp"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Cafe D"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/downtowncafe"
+            />
+        <ImageView
+            android:id="@+id/c4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/filos"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Downtown Cafe"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="30sp"
+
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="Filos cafe"
+            android:textSize="20dp"
+            android:layout_marginBottom="20sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/stepwell"
+            />
+        <ImageView
+            android:id="@+id/c6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sheeshmahal"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stepwell Cafe"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:text="Sheesha Mahal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

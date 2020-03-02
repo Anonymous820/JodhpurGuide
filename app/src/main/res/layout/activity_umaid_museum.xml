@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UmaidMuseumActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/umaidbhawan"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umaid Bhawan Museum"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The museum has exhibits of stuffed leopards, a very large symbolic flag given to Maharaja Jaswant Singh by Queen Victoria in 1877, lighthouse shapes.[6] The classic cars of the Maharajas are also on display in the garden in front of the museum."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

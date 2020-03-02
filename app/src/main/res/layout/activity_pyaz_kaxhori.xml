@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PyazKaxhoriActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/pyazkachori"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pyaaz Kachori"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pyaj Kachori (Rajasthani: कांदा कचोरी, pronounced as kaanda k-chō-rē) (Onion Kachori) is a kind of Rajasthani Kachori, a fried pastry filled with a spicy onion filling. It is one of the famous spicy snack food from Jodhpur and vicinity. Popularity of this snack dish increased in other parts of North India when Rajasthani restaurants and food outlets opened throughout India. Today it has become local snack dish of several regions of Indian Subcontinent."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

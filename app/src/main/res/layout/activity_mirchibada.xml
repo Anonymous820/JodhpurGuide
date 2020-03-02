@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MirchibadaActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mirchibada"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mirchi Bada"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mirchi bava (chili cutlet) is a spicy Indian snack consisting of chili (mirchi ) and potato or cauliflower stuffing, served hot with tomato sauce or occasionally with mint and tamarind chutney. Banana pepper is used for making mirchi bada.
+
+The mirchi vada of Jodhpur, Rajasthan is famous, as the water in that region lends it a unique taste. It combines well with another Jodhpur speciality, mawa kachori, dipped in sugary syrup.[1]"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

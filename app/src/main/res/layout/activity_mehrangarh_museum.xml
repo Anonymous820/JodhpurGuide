@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MehrangarhMuseumActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/museumatmehrangarh"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mehrangarh Museum"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mehrangarh Fort stands a hundred feet in splendor on a perpendicular cliff, four hundred feet above the sky line of Jodhpur. Burnished red sand stone, imposing, invincible and yet with a strange haunting beauty that beckons . Much has been written about the Citadel of the Sun, for truly, it is one of the most impressive in all Rajasthan. So colossal are its proportions that Rudyard Kipling called it “ the work of giants”. Today, it is acknowledged as one of the best preserved fort in India."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

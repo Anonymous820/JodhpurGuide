@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".machiaparkActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/i15"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/machiapark"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Machia Biological Park Jodhpur"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The vision of the Machia Biological Park is to create an opportunity for the citizens of Jodhpur to have a biological park very close to the city in Machia Forest Block of 604 ha. near Kayalana lake. Jodhpur is having a tradition of very good in-situ conservation. The vision is to create one of the best example of ex-situ conservation and at the same time the best tourist spot of Jodhpur. Machia Biological Park will also create the awareness on the importance of conservation of flora and fauna for the benefit of the future generation in addition to the conservation of gene pool of the endangered species of wild animals of the region."
+        android:textSize="20dp"/>
+
+</LinearLayout>

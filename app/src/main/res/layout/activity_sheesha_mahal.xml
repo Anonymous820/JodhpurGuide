@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookCafeActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/sheeshmahal"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sheesha Mahal"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" A characteristic feature of the royal Rajput architecture, the Sheesh Mahal in the Mehrangarh Fort of Jodhpur is a treat to the eye of the beholder. Also known as Glass Palace of Jodhpur, this marvellous piece of architecture is decked from ceiling to floor with intricate mirror work. These decorative ornaments are complemented well with the brightly coloured paintings of various religious figures made in plaster."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MalaiRotiActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/malairoti"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Malai Roti"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" The rare delicacy- Malai Roti attains a distinct taste owing to the use of cardamom and spices, like- mace (Javitri) and nutmeg (Jaiphal).Contrary to its name, this Malai Roti prepared by draining the liquid from Malai (milk cream) and simply given the shape of Roti (bread), shallow-fried fried in pure Desi Ghee (clarified butter), soaked in the sugar syrup (Chashani) and garnished with saffron strands, dry-fruits, like- pistachio, almonds etc.is a rare sweet delicacy."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

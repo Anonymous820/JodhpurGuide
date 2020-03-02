@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jdp"
+    android:orientation="vertical"
+    android:background="@drawable/jodhpur"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Jodhpur The Blue City"
+        android:textColor="#251B1B"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50sp"
+        />
+
+</LinearLayout>
+
+
+
+
+

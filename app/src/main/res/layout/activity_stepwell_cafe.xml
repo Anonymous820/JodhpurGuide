@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookCafeActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/cafed"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stepwell Cafe"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" The Stepwell Square is a panoramic, all encompassing mini-architectural tour in itself with the spectacularly proportioned Toorji Ka Jhalra at its epi-centre. Indeed, almost three hundred years of Jodhpur's building traditions are not only on magnificent view but can actually be experienced; from the intricately carved 18th Century Pol (Entrance) of the historic Nath Haveli to its no less distinctive 1930s 'Jodhpur Art Deco' residential wing. Walk all the way around, or not; pray at a temple or two; watch the water pour through the lion's mouth; lunch, dine, sip and shop…"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

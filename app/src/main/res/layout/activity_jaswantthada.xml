@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jaswantthadaActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/i13"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/jaswantthada"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaswant Thada."
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Jaswant Thada is a cenotaph located in Jodhpur, in the Indian state of Rajasthan. It was built by Maharaja Sardar Singh of Jodhpur State in 1899 in memory of his father, Maharaja Jaswant Singh II,[1] and serves as the cremation ground for the royal family of Marwar.[2]
+
+The mausoleum is built out of intricately carved sheets of marble. These sheets are extremely thin and polished so that they emit a warm glow when illuminated by the Sun.
+
+The cenotaph's grounds feature carved gazebos, a tiered garden, and a small lake. There are three other cenotaphs in the grounds. The cenotaph of Maharaja Jaswant Singh displays portraits of the rulers and Maharajas of Jodhpur.[3]
+
+References"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    android:columnCount="2">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/makhaniyalassi"
+        />
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/malairoti"
+        android:layout_marginLeft="20dp"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Makhaniya Lassi"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginBottom="20sp"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Malai Roti"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/malpua"
+            />
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mirchibada"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="Malpua"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="30sp"
+
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Mirchi Bada"
+            android:textSize="20dp"
+            android:layout_marginBottom="20sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pyazkachori"
+            />
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dalbati"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Pyaaz Kachori"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Dal Bati"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

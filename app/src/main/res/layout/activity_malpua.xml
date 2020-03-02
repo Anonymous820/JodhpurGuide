@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MalaiRotiActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/malpua"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malpua"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Malpua (Odia: ମାଲପୁଆ) alos known as Amalu (Odia: ଅମାଲୁ) in Odisha is a pancake served as a dessert or a snack originating from the Indian subcontinent, popular in India, Nepal and Bangladesh.[1].The batter for malpua in some areas is prepared by crushing ripe bananas or (in Bangladesh) coconut, adding flour, and water or milk. The mixture is sometimes delicately seasoned with cardamoms. It is deep fried in oil, and served hot. In Odisha the Malpua fritters are dipped in syrup after they are fried. The Bihari version of this dish has sugar added to the batter prior to frying."
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
